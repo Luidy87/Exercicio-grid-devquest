@@ -1,0 +1,62 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    display: grid;
+    grid: "video-main propaganda" "video-main titulos";
+    max-width: 900px;
+    max-height: 415px;
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    padding: 35px;
+    background-color: #f7f7f7;
+    gap: 20px;
+    
+}
+
+.video-main{
+    grid-area: video-main;
+}
+
+.video-main img{
+width: 100%;    
+}
+
+.title{
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.visualizacoes{
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.text{
+    margin-top: 5px;
+    font-weight: 300;
+}
+.adversing{
+    grid-area: propaganda;
+}
+
+
+
+.titles{
+    grid-area: titulos;
+}
+
+.titles .videos{
+    display: flex;
+    margin-top: 12px;
+}
+
+.titles .info-videos{
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.titles .info-videos p{
+    font-size: 11px;
+    margin-top: 5px;
+}
